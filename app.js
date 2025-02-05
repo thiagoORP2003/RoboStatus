@@ -15,7 +15,7 @@ async function acessarSite() {
 
     console.log('Preenchendo senha...');
     await page.waitForSelector('#mat-input-1', { visible: true });
-    await page.type('#mat-input-1', '62Zky0I#');
+    await page.type('#mat-input-1');
 
     // Clica no botão de login
     console.log('Clicando no botão de login...');
